@@ -1,0 +1,7 @@
+#!/bin/bash
+# sh .apiexec/dev
+@ECHO OFF
+echo I will start PHP server on:
+echo http://localhost:8080
+WHERE php
+php -S 0.0.0.0:8080
