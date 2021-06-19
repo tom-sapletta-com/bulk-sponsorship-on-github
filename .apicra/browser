@@ -1,2 +1,2 @@
 #!/bin/bash
-start firefox http://localhost:8080/domains.php
+start firefox http://localhost:8080/path_list_many_filters.php

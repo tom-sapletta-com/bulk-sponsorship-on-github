@@ -1,0 +1,8 @@
+#!/bin/bash
+# sh .apiexec/dev
+@ECHO OFF
+echo I will test PHP scripts
+WHERE php
+php path_list_defined.php
+php path_list_one_filter.php
+php path_list_many_filters.php

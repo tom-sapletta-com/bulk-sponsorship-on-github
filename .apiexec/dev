@@ -4,4 +4,7 @@
 echo I will start PHP server on:
 echo http://localhost:8080
 WHERE php
+start firefox http://localhost:8080/api.php?path=/*/*/.gitattributes
+#http://localhost:8080/api.php?path=/*/*/.gitattributes
+#http://localhost:8080/api.php?path='/*/*/.gitattributes'
 php -S 0.0.0.0:8080
