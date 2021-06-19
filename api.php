@@ -7,8 +7,6 @@ require('.apifunc/apifunc.php');
 
 header('Content-Type: application/json');
 
-
-
 try {
     $path = $_GET['path'];
     $path_content_list = [];
@@ -20,10 +18,9 @@ try {
         'https://php.eachfunc.com/each_func.php',
     ], function () {
 
-
         global $path;
 
-        $list = let_path($path, function($file_path){
+        $list = let_path($path, function ($file_path) {
             $file = file_get_contents($file_path, true);
             global $path_content_list;
             $path_content_list[] = [
